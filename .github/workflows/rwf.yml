@@ -1,0 +1,9 @@
+on:
+  workflow_call:
+
+jobs:
+  test:
+    runs-on:
+      group: custom-group
+    steps:
+      - run: echo 'here'
